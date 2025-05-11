@@ -1,7 +1,7 @@
 import React from 'react';
 import avatar from '../assets/avatar.jpg';
 import githubIcon from '../assets/github-mark-white.svg';
-import linkedinIcon from '../assets/linkedin-icon.png';
+import hh from '../assets/hh.png';
 
 function Hero() {
 return (
@@ -37,7 +37,23 @@ return (
                     🏠 Bishkek, Kyrgyzstan.
                 </a>
                 <div className="w-full flex items-center justify-end max-md:justify-center gap-5 text-base text-light-gray">
-                
+                    < a
+                        target="_blank"
+                        className="flex gap-1 items-center hover:text-white"
+                        href="https://bishkek.headhunter.kg/resume/5222ea9eff0d4af4160039ed1f6f6d765a3868"
+                    >
+                        <img
+                            alt="icon"
+                            loading="lazy"
+                            width="20"
+                            height="20"
+                            decoding="async"
+                            data-nimg="1"
+                            style={{ color: "transparent" }}
+                            src={hh}
+                        />
+                        HeadHanter
+                    </a>
                     <a
                         target="_blank"
                         className="flex gap-1 items-center hover:text-white"
