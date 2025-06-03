@@ -5,7 +5,6 @@ import tailwindIcon from '../assets/tailwind-icon.svg'   ;
 import project1 from '../assets/project1.png'   ;
 import azios from '../assets/Azios.svg';
 import jotaiIcon from '../assets/jotai-seeklogo.svg'   ;
-import Minzu from './Projects/minzu.jsx';
 
 const Projects = () => {
     const handleProjectClick = (e, href) => {
